@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+:root {
+    --fonte1: arial, helvetica, sans-serif;
+    --fonte2: 'Itim', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagens/29.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center center;
+    font-family: var(--fonte1);
+    background-color:  #100A35;
+}
+
+header {
+    height: 100px;
+    text-align: center;
+    background-image: url(../imagens/29.png);
+}
+
+header > h1 {
+    font-family: var(--fonte2);
+    font-variant: small-caps;
+    font-size: 3em;
+    padding-top: 20px;
+    background: linear-gradient(to bottom, #B90349, rgb(108, 0, 151),  #B41CD4);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+main {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    min-width: 320px;
+    max-width: 1000px;
+    background-color: #100A35;
+    box-shadow: 0px 0px 14px 8px #7E07A6;
+    border-radius: 20px;
+}
+
+main > section {
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+    min-width: 320px;
+    max-width: 1000px;
+}
+
+main > section >img {
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+    max-width: 1000px;
+    padding-top: 20px;
+}
+
+main > section > div {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 320px;
+    background-color: #100A35;
+    box-shadow: 0px 0px 14px #7E07A6;
+    text-align: center;
+}
+
+main a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+main nav {
+    text-align: center;
+    font-size: 2em;
+}
+
+main nav a{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 15px 20px 15px 20px;
+}
+
+main a:hover { 
+    background-color: #B41CD4;  
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.432);
+    color: #300838;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+footer {
+    background-image: url(../imagens/29.png);
+    height: 60px;
+    text-align: center;
+}
+
+footer p {
+    display: inline-block;
+    background: linear-gradient(to bottom, #B90349, rgb(108, 0, 151),  #B41CD4);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+footer > p > a {
+    display: inline-block;
+    background: linear-gradient(to bottom, #B90349, rgb(108, 0, 151),  #B41CD4);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: none;
+}
+
+#rodape:hover {
+    border-radius: 10px;
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
